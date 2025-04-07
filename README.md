@@ -1,4 +1,4 @@
-#This project contains the instructions to automate the creation of a Virtual Machine on Google Cloud. The Virtual Machine has the following specifications:
+#This project contains the instructions to automate the creation of a Virtual Machine on Google Cloud. The Virtual Machine has the following specifications:<br>
    Image: Ubuntu 20.04,
    Disk Size: 250GB,
    CPUs: 2,
@@ -20,12 +20,12 @@
       - echo ‘<!doctype html><html><body><h1>Hello World!</h1></body></html>’ | sudo tee /var/www/html/index.html
   - To access the website, click on the external IP address.
 
-#Prerequisites:
+#Prerequisites:<br>
   - Google Cloud Account
   - Google Cloud CLI
   - IAM and Compute Engine enabled in your project.
 
-#Expected Output:
+#Expected Output:<br>
 If the script runs successfully, a “Setup Complete!” message will be displayed. Additionally, a virtual machine type 20.04 with 2 CPUs, 8GB of RAM and a disk size of 250 GB will created.
 Troubleshooting 
 If the script does not run in the first attempt, check if IAM and Compute Engine are enabled on your Google Cloud project. Additionally, ensure that you have all the necessary libraries installed. Lastly, set the variable “PROJECT” to the name of your project in the Google Cloud.
