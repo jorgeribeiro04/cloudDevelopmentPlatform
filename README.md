@@ -5,20 +5,20 @@
    RAM: 8GB<br>
 
 #Step-by-step instructions for running the script:
-   Create an account on Google Cloud.
-   Download and install Google CLI.
-   Access Google Cloud Console on the browser and create a new project. 
-   Enable IAM and Compute Engine in your project.
-   Open the script on Visual Studio Code (or another IDE).
-   On your IDE’s terminal, run the commands “gcloud init” and “gcloud auth login”.
-   Run the following command to install the necessary libraries “python3 install google-auth google-api-python-client” (you may have to replace python3 with py or pip).
-   After installing the libraries, run the command “python3 script.py”.
-   Once the script is done, go back to Google Cloud Console, navigate to Compute Engine and then to VM instances to see the newly created virtual machine.
-   When the VM’s creation process is finished, click on SSH and run the following commands to install the Apache Server and configure the webpage:
-      sudo apt-get update
-      sudo apt-get install apache2 php7.0
-      echo ‘<!doctype html><html><body><h1>Hello World!</h1></body></html>’ | sudo tee /var/www/html/index.html
-   To access the website, click on the external IP address.
+   Create an account on Google Cloud.<br>
+   Download and install Google CLI.<br>
+   Access Google Cloud Console on the browser and create a new project. <br>
+   Enable IAM and Compute Engine in your project.<br>
+   Open the script on Visual Studio Code (or another IDE).<br>
+   On your IDE’s terminal, run the commands “gcloud init” and “gcloud auth login”.<br>
+   Run the following command to install the necessary libraries “python3 install google-auth google-api-python-client” (you may have to replace python3 with py or pip).<br>
+   After installing the libraries, run the command “python3 script.py”.<br>
+   Once the script is done, go back to Google Cloud Console, navigate to Compute Engine and then to VM instances to see the newly created virtual machine.<br>
+   When the VM’s creation process is finished, click on SSH and run the following commands to install the Apache Server and configure the webpage:<br>
+      sudo apt-get update<br>
+      sudo apt-get install apache2 php7.0<br>
+      echo ‘<!doctype html><html><body><h1>Hello World!</h1></body></html>’ | sudo tee /var/www/html/index.html<br>
+   To access the website, click on the external IP address.<br>
 
 #Prerequisites:<br>
    Google Cloud Account<br>
